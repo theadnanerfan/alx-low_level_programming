@@ -2,7 +2,7 @@
 /**
  * main - printing byte sizes of different datatypes
  *
- * Return: 0 when 
+ * Return: 0 when succesfull
  */
 int main(void)
 {
