@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Sizes of 
+ * main - printing byte sizes of different datatypes
  *
- * Return: 0 when succesfull
+ * Return: 0 when 
  */
 int main(void)
 {
