@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all numbers less than 16
+ * main - print all numbers based 16
  * with putchar then new line
  * Return: 0
  */
