@@ -11,12 +11,15 @@ int main(void)
 int n = 0;
 int a = 'a';
 
-while (n < 15)
+while (n < 10)
+{
+putchar(a);
+n += 1;
+}
+while (a < f)
 {
 putchar(a);
 a += 1;
-n += 1;
-}
-putchar('\n');
 return (0);
+}
 }
