@@ -7,8 +7,9 @@
 
 int main(void)
 {
+int x = 10;
 int n = 48;
-while (n < 10)
+while (x < 10)
 {
 putchar(n);
 n += 1;
