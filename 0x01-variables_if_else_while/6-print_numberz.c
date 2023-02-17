@@ -12,6 +12,7 @@ int n = 48;
 while (x < 10)
 {
 putchar(n);
+x += 1;
 n += 1;
 }
 putchar('\n');
