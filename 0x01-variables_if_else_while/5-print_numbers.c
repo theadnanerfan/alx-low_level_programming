@@ -2,7 +2,7 @@
 
 /**
  * main - print all numbers less than 10
- * return: always 0
+ * return: 0
  */
 
 int main(void)
