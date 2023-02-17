@@ -16,7 +16,7 @@ while (n < 10)
 putchar(a);
 n += 1;
 }
-while (a < f)
+while (a < 'f')
 {
 putchar(a);
 a += 1;
