@@ -14,7 +14,7 @@ int l = 'z';
 do {
 putchar(l);
 l -= 1;
-} while (l <= 'a');
+} while (l >= 'a');
 putchar('\n');
 return (0);
 }
