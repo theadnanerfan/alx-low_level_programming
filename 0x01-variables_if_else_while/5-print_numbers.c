@@ -3,7 +3,7 @@
 /**
  * main - print all numbers less than 10
  * then new line
- * Retrn: 0
+ * Return: 0
  */
 
 int main(void)
