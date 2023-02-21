@@ -1,12 +1,6 @@
-#include <stdio.h>
-#include <main.h>
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
-/**
- * main -  MAIN
- * Return: 0
- */
+int _putchar(char c);
 
-int main(void)
-{
-return (0);
-}
+#endif

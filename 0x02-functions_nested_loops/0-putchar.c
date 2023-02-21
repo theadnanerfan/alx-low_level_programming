@@ -1,25 +1,19 @@
-#include <stdio.h>
 #include <main.h>
-
 /**
- * main -  prints _putchar
+ * _putchar: puts char
  * Return: 0
  */
 
 int main(void)
 {
-printtf('_putchar');
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 putchar('\n');
-return (0);
-}
-/**
- * main -  prints _putchar
- * Return: 0
- */
-
-int main(void)
-{
-printtf('_putchar');
-putchar('\n');
-return (0);
+return 0
 }
