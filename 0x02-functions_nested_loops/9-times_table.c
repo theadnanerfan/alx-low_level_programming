@@ -24,7 +24,7 @@ else if (product < 100)
 {
 _putchar(product / 10 + '0');
 _putchar(product % 10 + '0');
-} 
+}
 else
 {
 _putchar(product / 100 + '0');
