@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - prints all time hours and mins 
+ * jack_bauer - prints all time hours and mins
  * Return: void
  */
 void jack_bauer(void)
