@@ -4,7 +4,7 @@
  * @ch: character
  * Return: 1 if alph else 0
  */
-int _isalpha(char ch)
+int _isalpha(int ch)
 {
 	if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
 	{
