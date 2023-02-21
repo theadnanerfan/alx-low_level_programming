@@ -4,14 +4,14 @@
  * @x: input num to check
  * Return: 1 if positive, -1 if negative and 0 if Zero
  */
-int print_sign(int n)
+int print_sign(int x)
 {
-	if (n > 0)
+	if (x > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	else if (n < 0)
+	if (x < 0)
 	{
 		_putchar('-');
 		return (-1);
