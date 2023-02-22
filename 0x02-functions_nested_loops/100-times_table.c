@@ -1,44 +1,29 @@
 #include "main.h"
 /**
- * times_table - print 9 * every numb
+ * print_times_table - prints time table of n
+ * @n: input num
+ *
  * Return: void
  */
-void times_table(n)
+void print_times_table(int n)
 {
-int row = n;
-int col;
-if (row < 16 || row < 0)
+        int i, j, res;
+if (n > 15 || n < 0)
+return;
+for (i = 0; i <= n; i++)
 {
-for (row ; row < 10; row++)
+for (j = 0; j <= n; j++)
 {
-_putchar('0');
-for (col = 1; col < 10; col++)
-{
-int product = row * col;
-_putchar(',');
-_putchar(' ');
-if (product < 10)
-{
-_putchar(' ');
-_putchar(product + '0');
-}
-else if (product < 100)
-{
-_putchar(product / 10 + '0');
-_putchar(product % 10 + '0');
-}
+res = i * j;
+if (j == 0)
+printf("%d", res);
+else if (res < 10)
+printf(",   %d", res);
+else if (res < 100)
+printf(",  %d", res);
 else
-{
-_putchar(product / 100 + '0');
-_putchar((product % 100) / 10 + '0');
-_putchar(product % 10 + '0');
+printf(", %d", res);
 }
-}
-_putchar('\n');
-}
-}
-else
-}
-return (0);
+printf("\n");
 }
 }
