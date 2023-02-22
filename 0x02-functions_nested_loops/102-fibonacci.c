@@ -25,6 +25,6 @@ c = b + a;
 a = b;
 b = c;
 printf("%ld", c);
-printf("/n");
+putchar('\n');
 return (0);
 }
