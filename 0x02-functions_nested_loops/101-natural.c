@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * main: multiples of 3 and 5 under 1024 
+ * main - multiples of 3 and 5 under 1024
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 int sum = 0;
 int i;
