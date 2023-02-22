@@ -14,7 +14,6 @@ int a = 0;
 long b = 1;
 long c;
 
-printf("%ld, %ld", b, b + a);
 for (i = 3; i <= n; i++)
 {
 c = b + a;
