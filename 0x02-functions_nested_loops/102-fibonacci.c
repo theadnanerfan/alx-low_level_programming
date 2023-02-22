@@ -10,8 +10,8 @@ int main(void)
 {
 int i;
 int n = 50;
-long a = 1;
-long b = 2;
+int a = 0;
+long b = 1;
 long c;
 
 printf("%ld, %ld", b, b + a);
@@ -23,5 +23,5 @@ b = c;
 printf(", %ld", c);
 }
 printf("\n");
-return 0;
+return (0);
 }
