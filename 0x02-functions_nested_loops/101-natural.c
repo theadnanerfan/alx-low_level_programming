@@ -9,8 +9,8 @@
 int main()
 {
 int sum = 0;
-int i = 0;
-for (i; i<1024; i++)
+
+for (int i = 0; i<1024; i++)
 {
 if (i % 3 == 0)
 {
