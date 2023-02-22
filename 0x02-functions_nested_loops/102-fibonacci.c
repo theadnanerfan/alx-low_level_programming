@@ -24,6 +24,6 @@ printf("%ld, ", c);
 c = b + a;
 a = b;
 b = c;
-printf("%ld", c);
+printf("%ld ", c);
 return (0);
 }
