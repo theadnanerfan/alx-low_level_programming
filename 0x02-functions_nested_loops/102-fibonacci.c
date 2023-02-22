@@ -19,7 +19,7 @@ for (i = 3; i <= n; i++)
 c = b + a;
 a = b;
 b = c;
-printf("%ld, ", c);
+printf(", %ld", c);
 }
 printf("\n");
 return (0);
