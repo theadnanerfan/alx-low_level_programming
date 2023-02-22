@@ -19,7 +19,10 @@ for (i = 3; i <= n; i++)
 c = b + a;
 a = b;
 b = c;
+if (n != 52)
+{
 printf("%ld, ", c);
+}
 }
 printf("\n");
 return (0);
