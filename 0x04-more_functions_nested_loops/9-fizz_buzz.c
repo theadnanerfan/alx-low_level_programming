@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints 1 to 100 fizzing 3 multiples and buzzing 5
