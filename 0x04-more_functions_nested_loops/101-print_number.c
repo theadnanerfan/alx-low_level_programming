@@ -14,7 +14,6 @@ void print_number(int n)
     if (n == 0)
     {
         _putchar('0');
-        return;
     }
     int digits = 0;
     int temp = n;
@@ -36,4 +35,3 @@ void print_number(int n)
         digits--;
     }
 }
-
