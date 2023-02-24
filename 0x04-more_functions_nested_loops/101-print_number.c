@@ -1,19 +1,39 @@
 #include "main.h"
 
 /**
- * print_number - prints numbs with putchar
- * @n: number
+ * print_number - prints a multi-digit integer using putchar
+ * @n: the integer to print
  */
-
 void print_number(int n)
 {
-int digit, temp;
-temp = n;
-while (temp != 0)
-{
-digit = temp % 10;
-temp /= 10;
-_putchar(digit + '0');
+    if (n < 0)
+    {
+	_putchar('-');
+        n = -n;
+    }
+    if (n == 0)
+    {
+        _putchar('0');
+        return;
+    }
+    int digits = 0;
+    int temp = n;
+    while (temp != 0)
+    {
+        digits++;
+        temp /= 10;
+    }
+    char c;
+    while (digits > 0)
+    {
+        temp = n;
+        for (int i = 1; i < digits; i++)
+        {
+            temp /= 10;
+        }
+        c = '0' + temp;
+        _putchar(c);
+        digits--;
+    }
 }
-_putchar('\n');
-}
+
