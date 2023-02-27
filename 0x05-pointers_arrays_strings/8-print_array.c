@@ -10,10 +10,9 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	if (a[1] == '\0')
+	if (a[1] != '\0')
 	{
 	printf("%d", a[0]);
-	return;
 	}
 	else
 	{
