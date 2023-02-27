@@ -13,6 +13,7 @@ void print_array(int *a, int n)
 	if (a[1] == '\0')
 	{
 	printf("%d", a[0]);
+	return;
 	}
 	else
 	{
@@ -23,4 +24,4 @@ void print_array(int *a, int n)
 	}
 		printf("\n");
 	}
-}	
+}
