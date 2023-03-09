@@ -19,7 +19,7 @@ int getstrlength(char *x, int y)
  * Return: 1 or -1 when failed
  */
 
-int revstringcomp(char *a, int l)
+int revstringcomp(char *a, int len)
 {
 	if (*a != *(a + len))
 		return (0);
