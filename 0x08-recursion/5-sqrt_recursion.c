@@ -6,15 +6,15 @@
  * Return: 1 and -1 when fail
  */
 
-int sqrt(int x, int y)
+int _sqrt(int x, int y)
 {
 	if (y * y == x)
 		return (y);
 	else if (y * y > x)
 		return (-1);
-	return (sqrt(x, y + 1));
+	return (_sqrt(x, y + 1));
 }
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (_sqrt(n, 1));
 }
