@@ -15,17 +15,17 @@ int getstrlength(char *x, int y)
 /**
  * revstringcomp - compares a reverse string to non reversed
  * @a: String
- * @l: string length
+ * @len: length
  * Return: 1 or -1 when failed
  */
 
 int revstringcomp(char *a, int l)
 {
-	if (*a != *(a + l))
+	if (*a != *(a + len))
 		return (0);
 	else if (*a == 0)
 		return (1);
-	return (revstringcomp(a + 1, l - 2));
+	return (revstringcomp(a + 1, len - 2));
 }
 /**
  * is_palindrome - palindrome check
@@ -37,5 +37,5 @@ int is_palindrome(char *s)
 	int len;
 
 	len = getstrlength(s, 0);
-	return (revstringcomp(s, l));
+	return (revstringcomp(s, len));
 }
