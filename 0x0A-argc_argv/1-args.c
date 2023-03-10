@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		for (x = 0; *argv; x++, argv++)
+		;
 		printf("%d\n", x - 1);
 	}
 	return (0);
