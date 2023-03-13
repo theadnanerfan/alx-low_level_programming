@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * *_strstr2 - copies a string
+ * *_strdup - copies a string
  * @str: string we want to copy
  * Return: succes points to string copied , null otherwise
  */
-char *_strstr2(char *str)
+char *_strdup(char *str)
 {
 	char *str2;
 	unsigned int i = 0;
