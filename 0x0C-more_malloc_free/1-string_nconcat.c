@@ -33,14 +33,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (i < l1)
 	{
 		s[i] = s1[i];
-		i += 1;
+		i++;
 	}
 
 	while (n < l2 && i < (l1 + n))
-		s[i+1] = s2[j+1];
+		s[i++] = s2[j++];
 
 	while (n >= l2 && i < (l1 + l2))
-		s[i+1] = s2[j+1];
+		s[i++] = s2[j++];
 	
 	s[i] = '\0';
 
