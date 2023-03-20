@@ -47,13 +47,13 @@ dog_t *new_dog(char *name, float age, char *owner)
  */
 char *_strdup(char *str)
 {
-	int i = 0;
+	int i;
 	int j;
 	char *p;
 
 	if (str == NULL)
 		return (NULL);
-	
+	i = 0;
 	while (*(str + i) != '\0')
 	{
 		i++;
