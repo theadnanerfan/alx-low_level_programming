@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - print file name of complied
- * Return: filename
+ * main - print src file
+ *
+ * Return: file name
  */
 int main(void)
 {
