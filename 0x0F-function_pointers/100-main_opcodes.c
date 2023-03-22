@@ -1,36 +1,38 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - main
- *@argc: params
- *@argv: opcode params
-* Description: prints opcodes
-* Return: 0 in succes
-*/
-int main(int argc, char *argv[])
+ * main - main 
+ * @argc: int arg count
+ * @argv: char arg array
+ *
+ * Description: prints opcode
+ * Return: 0
+ */
+int main(int argc, char **argv)
 {
-	int x, y;
+	int count;
 
-
+	count = 0;
 	if (argc != 2)
 	{
 		printf("Error\n");
-		return (1);
+		exit(1);
 	}
-	x = atoi(argv[1]);
-	if (y < 0)
+	if (atoi(argv[1]) < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
-
-	for (x = 0; x < y; x++)
+	while (count < atoi(argv[1]))
 	{
-		printf("%02hhx", *((char *)main + x));
-		if (x < y - 1)
+		printf("%02x", *((unsigned char *)main + count));
+		count++;
+		if (atoi(argv[1]) > count)
+		{
 			printf(" ");
-		else
-			printf("\n");
+		}
 	}
+	printf("\n");
 	return (0);
 }
