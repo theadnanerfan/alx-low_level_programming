@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - main 
+ * main - main
  * @argc: int arg count
  * @argv: char arg array
- *
  * Description: prints opcode
  * Return: 0
  */
